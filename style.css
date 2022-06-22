@@ -1,1 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center; 
+}
+
+.container{
+   width: 70vw;
+   height: 85vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 35px;
+    background-color: #FF9F29;
+    box-shadow: 2px 7px 4px 5px #FF9F29;
+    border-radius: 10px 10px 0 0;
+}
+header h1{
+    color: #000D6B;
+    font-family: sans-serif;
+}
+#textarea{
+    background-image: url(https://previews.123rf.com/images/pliskova/pliskova1706/pliskova170600299/81339028-%EB%A9%94%EB%AA%A8%EC%9E%A5%EC%9D%98-%EC%A7%88%EA%B0%90%EC%9E%85%EB%8B%88%EB%8B%A4-%ED%95%99%EA%B5%90-%EB%85%B8%ED%8A%B8%EB%B6%81%EC%9D%98-%EB%B0%B0%EA%B2%BD.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100%;
+height: 100%;
+font-size: 22px;
+padding: 20px;
+line-height: 1.7;
+border: none;
+outline: none;
+box-shadow: 2px 7px 4px 5px lightslategray;
+}
+
+.check-box-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 1.5rem;
+}
+.text-auto-save{
+    font-size: 18px;
+    color: #180A0A;
+    font-weight: 700;
+}
